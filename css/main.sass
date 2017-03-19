@@ -1,0 +1,42 @@
+---
+---
+
+// Define defaults for each variable.
+
+$base-font-family: "Open Sans", Helvetica, Arial, sans-serif !default
+$base-font-size:   16px !default
+$base-font-weight: 400 !default
+$small-font-size:  $base-font-size * 0.875 !default
+$base-line-height: 1.5 !default
+
+$spacing-unit:     30px !default
+
+$text-color:       #111 !default
+$background-color: #fdfdfd !default
+$brand-color:      #BE203D !default
+$alt-color:        #24C0A2 !default
+$grey-color:       #828282 !default
+$grey-color-light: lighten($grey-color, 40%) !default
+$grey-color-dark:  darken($grey-color, 25%) !default
+
+$site-max-width: 80rem
+
+=for-phone-only
+  @media (max-width: 599px)
+    @content
+
+=for-tablet-portrait-up
+  @media (min-width: 600px)
+    @content
+
+=for-tablet-landscape-up
+  @media (min-width: 900px)
+    @content
+
+=for-desktop-up
+  @media (min-width: $site-max-width)
+    @content
+
+// Import partials.
+@import "_typography"
+@import "_layout"
