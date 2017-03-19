@@ -1,5 +1,6 @@
 body
   font-family: $base-font-family
+  font-size: 1.1rem
 
 h1, h2
   text-transform: uppercase
@@ -13,6 +14,7 @@ h1, h2, h3
   padding-right: 1rem
   padding-top: 0.25rem
   padding-bottom: 0.25rem
+  clear: both
 
 h1
   font-size: 4rem
@@ -26,12 +28,24 @@ h1
   margin-bottom: 0
 
 h2
-  font-size: 2rem
+  font-size: 2.5rem
   color: $background-color
   background-color: $brand-color
 
 h3
-  font-size: 1.5rem
+  font-size: 1.75rem
   color: $background-color
   background-color: $alt-color
   margin-bottom: 0
+
+blockquote
+  font-style: italic
+  margin: 1.5rem
+  display: block
+
+cite
+  display: block
+  margin-top: 0.5rem
+  font-style: normal
+  &::before
+    content: "— "

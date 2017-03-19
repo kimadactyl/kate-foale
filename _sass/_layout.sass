@@ -3,7 +3,9 @@ body
   padding: 0
 
 img
-  max-width: 100%
+  max-width: 80%
+  +for-tablet-portrait-up
+    max-width: 100%
   display: block
   margin: 1rem auto
 
@@ -25,7 +27,18 @@ h2, h3
   +for-desktop-up
     margin: 0 auto
 
+
+.content
+  +for-tablet-portrait-up
+    float: left
+    width: 60%
+  +for-desktop-up
+    width: 60%
 .aside
-  float: right
-  margin-left: 2rem
-  max-width: 40%
+  +for-tablet-portrait-up
+    float: left
+    margin-left: 1%
+    width: 39%
+  +for-desktop-up
+    margin-left: 5%
+    width: 35%

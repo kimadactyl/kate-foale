@@ -1,5 +1,7 @@
+@charset "UTF-8";
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif; }
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 1.1rem; }
 
 h1, h2 {
   text-transform: uppercase; }
@@ -12,7 +14,8 @@ h1, h2, h3 {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-top: 0.25rem;
-  padding-bottom: 0.25rem; }
+  padding-bottom: 0.25rem;
+  clear: both; }
 
 h1 {
   font-size: 4rem;
@@ -27,24 +30,39 @@ h1 {
       margin-left: 0; } }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: #fdfdfd;
   background-color: #BE203D; }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 1.75rem;
   color: #fdfdfd;
   background-color: #24C0A2;
   margin-bottom: 0; }
+
+blockquote {
+  font-style: italic;
+  margin: 1.5rem;
+  display: block; }
+
+cite {
+  display: block;
+  margin-top: 0.5rem;
+  font-style: normal; }
+  cite::before {
+    content: "— "; }
 
 body {
   margin: 0;
   padding: 0; }
 
 img {
-  max-width: 100%;
+  max-width: 80%;
   display: block;
   margin: 1rem auto; }
+  @media (min-width: 700px) {
+    img {
+      max-width: 100%; } }
 
 header {
   background-image: url("../images/redmap.png"); }
@@ -65,7 +83,20 @@ h2, h3 {
     .wrapper {
       margin: 0 auto; } }
 
-.aside {
-  float: right;
-  margin-left: 2rem;
-  max-width: 40%; }
+@media (min-width: 700px) {
+  .content {
+    float: left;
+    width: 60%; } }
+@media (min-width: 80rem) {
+  .content {
+    width: 60%; } }
+
+@media (min-width: 700px) {
+  .aside {
+    float: left;
+    margin-left: 1%;
+    width: 39%; } }
+@media (min-width: 80rem) {
+  .aside {
+    margin-left: 5%;
+    width: 35%; } }
