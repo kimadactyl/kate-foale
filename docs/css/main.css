@@ -22,7 +22,7 @@ h1 {
   display: inline-block;
   color: #BE203D;
   background-color: #fdfdfd;
-  margin-top: 8rem;
+  margin-top: 12rem;
   margin-left: 1rem;
   margin-bottom: 0; }
   @media (min-width: 80rem) {
@@ -52,6 +52,15 @@ cite {
   cite::before {
     content: "— "; }
 
+.btn {
+  color: #fdfdfd;
+  background-color: #24C0A2;
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.25em 0.5em;
+  margin-bottom: 0.5em; }
+
 body {
   margin: 0;
   padding: 0; }
@@ -60,7 +69,7 @@ img {
   max-width: 80%;
   display: block;
   margin: 1rem auto; }
-  @media (min-width: 700px) {
+  @media (min-width: 770px) {
     img {
       max-width: 100%; } }
 
@@ -76,14 +85,23 @@ main, footer {
 h2, h3 {
   clear: both; }
 
+.headshot {
+  display: none; }
+  @media (min-width: 770px) {
+    .headshot {
+      display: block;
+      width: 16rem;
+      margin: 2rem auto 0; } }
+
 .wrapper {
   max-width: 80rem;
-  margin: 0 1rem; }
+  margin: 0 1rem;
+  position: relative; }
   @media (min-width: 80rem) {
     .wrapper {
       margin: 0 auto; } }
 
-@media (min-width: 700px) {
+@media (min-width: 770px) {
   .content {
     float: left;
     width: 60%; } }
@@ -91,7 +109,7 @@ h2, h3 {
   .content {
     width: 60%; } }
 
-@media (min-width: 700px) {
+@media (min-width: 770px) {
   .aside {
     float: left;
     margin-left: 1%;

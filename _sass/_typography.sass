@@ -21,9 +21,9 @@ h1
   display: inline-block
   color: $brand-color
   background-color: $background-color
-  margin-top: 8rem
+  margin-top: 12rem
   margin-left: 1rem
-  @media (min-width: $site-max-width)
+  +for-desktop-up
     margin-left: 0
   margin-bottom: 0
 
@@ -49,3 +49,12 @@ cite
   font-style: normal
   &::before
     content: "— "
+
+.btn
+  color: $background-color
+  background-color: $alt-color
+  display: inline-block
+  text-decoration: none
+  font-weight: bold
+  padding: 0.25em 0.5em
+  margin-bottom: 0.5em
