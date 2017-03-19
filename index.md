@@ -15,7 +15,11 @@ I love to hear your thoughts and concerns by e-mail or phone, and I can come vis
 
 As long as I am your elected representative I promise I will continue to listen, work hard, and do the very best I can to help you.
 
-## What I'm working on as your counsellor
+<div class="aside">
+  <img alt="Kate at a local holiday festival" src="./images/photos/working-with-you.jpg">
+</div>
+
+## What I'm working on
 
 ### Fighting for Families, Children, and Young People
 
@@ -25,11 +29,19 @@ For families, children and young people: as a School Governor and as Vice Chair 
 
 Since 2012 I've been a National Leader of Governance, working directly with Governors facing big challenges in their schools. I've got over 20  years experience as a Chair of Governors in Primary and Secondary Schools and am currently a Governor of Chilwell School, recently given a ‘good’ rating by Ofsted.
 
+<div class="aside">
+  <img alt="Kate protesting against new grammar schools" src="./images/photos/families-children.jpg">
+</div>
+
 ### Beeston Community Resource Centre
 
 One of my proudest achievements as a County Councillor has been to work with Beeston Community Resource to enable them to make a wonderful job of creating a great community hub.
 
 > Thank you Kate on behalf of everyone at BCR, for your unswerving support of our enterprise from our first request late in 2014 to be allowed to manage the Centre. The Centre is thriving and able to provide support and facilities to a wide range of individuals and community bodies. Your engagement and advocacy has been of crucial importance to our progress’ I would love to continue to support BCR and to work with other groups in Beeston; I have several currently in the pipeline. (Graham Machin, Chair of Beeston Community Resource)
+
+<div class="aside">
+  <img alt="Kate outside Middle St Resource Centre" src="./images/photos/middle-st.jpg">
+</div>
 
 ### Supporting the most vulnerable
 
@@ -37,9 +49,21 @@ There is a human cost when services to vulnerable people are not properly funded
 
 > Kate this is a remarkable service and we are delighted by the prompt help and support we received. (Linda, local resident, giving feedback for the Handy Adaption Service)
 
+<div class="aside">
+  <img alt="Kate with Keeley Terry, Chair of the 'No Labels' Children in Care Council" src="./images/photos/keeley.jpg">
+</div>
+
 ### Public transport links
 
 Bus services have been under threat due to severe budget cuts from central government, so I was delighted to be able to persuade Notts County Council to re-route the 510 bus to take in Long Lane. Again, I could not have done it without your support. Thank you.
+
+### Canal Side Heritage Centre
+
+Need a bunch to go here!
+
+<div class="aside">
+  <img alt="With Stewart Craven Canalside Heritage Centre" src="./images/photos/canal-side.jpg">
+</div>
 
 
 ## Let me know how I can help
