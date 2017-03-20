@@ -32,7 +32,7 @@ h2, h3
   max-width: $site-max-width
   margin: 0 1rem
   position: relative
-  +for-desktop-up
+  @media (min-width: ($site-max-width + 3rem))
     margin: 0 auto
 
 .content
