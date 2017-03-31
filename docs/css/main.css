@@ -57,6 +57,9 @@ cite {
   cite::before {
     content: "— "; }
 
+a {
+  color: #24C0A2; }
+
 .btn {
   color: #fdfdfd;
   background-color: #24C0A2;
@@ -73,7 +76,7 @@ body {
 img {
   max-width: 80%;
   display: block;
-  margin: 1rem auto; }
+  margin: 1rem auto 2rem; }
   @media (min-width: 770px) {
     img {
       max-width: 100%; } }
@@ -83,12 +86,20 @@ header {
   header h3 {
     display: block; }
 
-main, footer {
+main {
   margin-left: 1rem;
   margin-right: 1rem; }
 
 h2, h3 {
   clear: both; }
+
+footer {
+  clear: both;
+  background-color: #3b0a13;
+  color: white;
+  padding: 3em 0 5em;
+  font-size: 0.8em;
+  margin-top: 2 em; }
 
 .headshot {
   display: none; }
@@ -123,3 +134,14 @@ h2, h3 {
   .aside {
     margin-left: 5%;
     width: 35%; } }
+
+@media (min-width: 770px) {
+  .adjacent {
+    float: left;
+    width: 49%;
+    text-align: center; }
+    .adjacent h3 {
+      text-align: center;
+      display: inline-block; }
+    .adjacent:nth-child(2) {
+      margin-left: 2%; } }

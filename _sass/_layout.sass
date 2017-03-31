@@ -7,19 +7,27 @@ img
   +for-tablet-portrait-up
     max-width: 100%
   display: block
-  margin: 1rem auto
+  margin: 1rem auto 2rem
 
 header
   background-image: url("../images/redmap.png")
   h3
     display: block
 
-main, footer
+main
   margin-left: 1rem
   margin-right: 1rem
 
 h2, h3
   clear: both
+
+footer
+  clear: both
+  background-color: darken($brand-color, 30)
+  color: white
+  padding: 3em 0 5em
+  font-size: 0.8em
+  margin-top: 2 em
 
 .headshot
   display: none
@@ -49,3 +57,13 @@ h2, h3
   +for-desktop-up
     margin-left: 5%
     width: 35%
+.adjacent
+  +for-tablet-portrait-up
+    float: left
+    width: 49%
+    text-align: center
+    h3
+      text-align: center
+      display: inline-block
+    &:nth-child(2)
+      margin-left: 2%
