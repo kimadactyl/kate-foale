@@ -16,7 +16,6 @@
 title: Kate Foale
 email: kate@katefoale.net
 description: Councillor Kate Foale for Beeston Central and Attenborough
-baseurl: "/kate-foale" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KateFoale
 destination: docs
