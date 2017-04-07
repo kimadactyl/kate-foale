@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: Kate Foale
 email: kate@katefoale.net
-description: Councillor Kate Foale for Beeston Central and Attenborough
+description: Councillor Kate Foale for Beeston Central and Rylands
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KateFoale
 destination: docs
