@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Kate Foale
-email: kate@katefoale.net
+email: kate@thefoales.net
 description: Councillor Kate Foale for Beeston Central and Rylands
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: KateFoale
